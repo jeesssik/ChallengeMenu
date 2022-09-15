@@ -20,7 +20,8 @@
     "react-router-dom": "6",
     "react-table": "^7.7.0",
     "sweetalert": "^2.1.2",
-    "use-query-params": "^1.2.3"
+    "use-query-params": "^1.2.3",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",

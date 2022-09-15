@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className='bg-light'>
-      <p>All rights reserved - Emanuele Elias Daniel</p>
+      <p>Tr realizado en React</p>
     </footer>
   )
 }
