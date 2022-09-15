@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+}
+
+#root {
+  height: 98.3vh;
+}
+
+.containerFooter {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.card {
+ width: 18rem;
+}
+
+.wrapper {
+  min-height: calc(100% - 4rem);
+}
+
+footer {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {margin: 0;}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-gap: 2em;
+  margin: auto;
+}
+
+.img-fluid {
+  margin: 0 auto;
+}
+
+.img-thumbnail {
+  width: 100px;
+}
+
+.icon {
+  color: orange;
+  font-size: 1.4rem;
+}
+
+.iconStar {
+  color: orange;
+  margin-bottom: 4px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+
+
+.form-signinn {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signinn .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signinn input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signinn input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.list li {
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+   .form-search {
+     width: 70%;
+   }
+
+   .form-search button {
+     width: 30%!important;
+   }
+}
